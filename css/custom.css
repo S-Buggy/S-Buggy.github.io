@@ -1,0 +1,2292 @@
+/*
+Custom CSS
+*/
+
+.plus-minus-toggle {
+  cursor: pointer;
+  height: 21px;
+  position: fixed;
+  width: 21px;
+    margin-left: 40px;
+    margin-top: -35px;
+    z-index: 1;
+    
+}
+.plus-minus-toggle:before,
+.plus-minus-toggle:after {
+  background: #00ff00;
+  content: '';
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+/*  transition: transform 500ms ease;*/
+    
+}
+.plus-minus-toggle:after {
+  transform-origin: center;
+}
+.plus-minus-toggle.collapsed:after {
+  transform: rotate(90deg);
+}
+.plus-minus-toggle.collapsed:before {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    
+   
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; /* Place content 60px from the top */
+    padding-left: 20px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:
+{
+   font-weight:400;
+    
+}
+
+.sidenav a:hover {
+    color: #00ff00;
+    font-weight: 600;
+}
+
+
+
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: relative;
+    top: 0;
+    right: 0px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+.pad
+{
+    margin-top: 23px;
+}
+
+
+
+.liltest
+{
+    
+}
+
+
+
+
+
+
+
+
+
+body{
+  
+  /* Stops the body from going under the navbar */
+/*  padding-top: 65px;*/
+    
+  font-family: 'Work Sans', sans-serif;
+    background-color: #fbfbfb;
+    overflow-x: hidden;
+/*    cursor: url(../img/cursor/Asset%205.png), auto;*/
+    
+}
+
+
+
+
+/*HOME PAGE BELOW HERE*/
+
+.purps
+{
+    background-color: #6300ff;
+}
+
+.sticky
+{
+    position: fixed;
+    z-index: 100;
+}
+
+.homegif
+{
+    
+    background-image: url(../Gifs/purplehome7.gif);
+    height:720px;
+    width: 1180px;
+    background-repeat: no-repeat;
+    background-position: centre;
+    z-index: 0;
+     
+}
+
+
+.testgif
+{
+    background-image: url(../Gifs/testoo.gif);
+    height:606px;
+    width:1180px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testgif2
+{
+   background-image: url(../Gifs/testoooo2.gif);
+    height:606px;
+    width:1180px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.homegifmobile
+{
+    display:none;
+}
+
+.row2
+
+{
+    margin-top: 100px;
+}
+
+.sparklingtreats
+{
+    font-size: 32px;
+    color: 6300ff;
+    font-weight:400;
+    margin-left:-15px;
+    
+}
+
+.purplebold
+{
+    font-size: 32px;
+    color:#6300ff;
+    font-weight: 700;
+}
+
+.line
+{
+    background-image: url(../img/homepage/newline2.svg);
+    height:92px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
+
+}
+
+.facebook
+{
+    background-image: url(../img/homepage/facebook.svg);
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 320px;
+
+}
+
+.email
+{
+    background-image: url(../img/homepage/newline2.svg);
+    height:92px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:200px;
+    
+}
+
+.actualemail
+{
+    background-image: url(../img/homepage/emailsingle.svg);
+    height: 130px;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-top: 330px;
+}
+.instagram
+{
+    background-image: url(../img/homepage/instagram.svg);
+    height:20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 365px;
+}
+
+.behance
+{
+  background-image: url(../img/homepage/behance.svg);
+    height:13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 413px; 
+}
+
+.linkdin
+{
+    background-image: url(../img/homepage/linkdin.svg);
+    height:15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 450px;
+}
+
+
+
+.arrow
+{
+   background-image: url(../img/homepage/arrow_1.svg);
+    height:15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:20px;
+    
+}
+
+.row2
+{
+    margin-top: 60px;
+}
+
+.row4
+{
+    margin-top: 65px;
+}
+
+.filmtitlesT
+{
+  font-size: 20px;
+    line-height: 25px;
+    color: black;
+    font-weight:700;
+    z-index: 100;
+    
+    
+}
+
+.boldfilmtitlesT
+{
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+    font-weight:700;
+    
+    z-index: 100;
+   
+}
+
+.rowp
+{
+    padding-top: 30px;
+}
+
+
+
+.filmproject
+{
+   
+   background-image:url(../img/homepage/newfilmtitles/nohover.jpg);
+    background-repeat: no-repeat;
+    width: 568px;
+    height:690px;
+    background-position: center;
+    display:block;
+
+    
+}
+
+
+.filmprojectm
+{
+    display:none;
+}
+
+.filmprojecttextm
+{
+    display: none;
+}
+
+.filmproject:hover
+{
+   background-image:url(../img/homepage/newfilmtitles/hover.jpg);
+    background-repeat: no-repeat;
+    width: 568px;
+    height:690px;
+    background-position: center;
+    display: block;
+    
+   
+    
+}
+
+.motyfproject
+{
+   background-image: url(../img/homepage/projectphotos/motyf1.jpg);
+    height: 690px;
+    width: 568px;
+    background-repeat: no-repeat;
+    background-position: center; 
+   
+    
+}
+
+.motyfprojectm
+{
+    display: none;
+}
+
+.motyfproject:hover
+{
+    background-image: url(../img/homepage/projectphotos/motyf2.jpg);
+    height: 690px;
+    width: 568px;
+    background-repeat: no-repeat;
+    background-position: center; 
+  
+}
+
+.tuslaproject
+{
+    background-image: url(../img/homepage/projectphotos/tests/tuslatest1.jpg);
+    height:400px;
+    width:568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    
+}
+
+
+.tuslaproject:hover
+{
+  background-image: url(../img/homepage/projectphotos/tests/tuslatestcolour.jpg);
+    height:400px;
+    width:568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+.typespecimenproject
+{
+    background-image: url(../img/homepage/projectphotos/tests/type%20specimen.jpg);
+    height:400px;
+    width:568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 0px;
+}
+
+
+.typespecimenproject:hover
+{
+    background-image: url(../img/homepage/projectphotos/tests/typespecimencolour.jpg);
+    height:400px;
+    width:568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 0px;
+}
+
+.row3
+{
+    margin-top: 100px;
+}
+
+.gif
+{
+    padding-top: 120px;   
+}
+
+.hi
+{
+    background-color: red;
+}
+
+.yo
+{
+    background-color: blueviolet;
+}
+
+.test
+{
+    font-size: 80px;
+}
+
+.paragraph1
+{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.paragraph2
+{
+    color:aqua;
+    font-size: 16px;
+}
+
+.empty
+{
+    padding-top: 100px;
+}
+
+.sarahbuggy
+{
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.call
+{
+    
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px;
+    
+}
+
+.calls
+{
+    margin-left: 0px;
+}
+
+.emailme
+{
+   color:white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px; 
+}
+
+.follow
+{
+    color:white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px;
+    
+}
+
+.numbers
+{
+   color:white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 0px; 
+}
+
+.numbers2
+{
+   color:white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 20px; 
+}
+
+.myemail
+{
+   color:white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 20px;  
+}
+
+.myemail2
+{
+   color:white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 0px;  
+}
+
+
+
+.followmee
+{
+    color:white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.followmee2
+{
+    color:white;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 0px;
+}
+
+
+.footer
+{
+    background-color: #6300ff;
+    padding-bottom: 50px;
+    
+}
+
+
+.liltest
+{
+    background-image: url(../Gifs/testoo3.gif);
+    width: 1180px;
+    height: 606px;
+    background-repeat: no-repeat;
+    position: centre;
+    margin-left:140px;
+}
+
+/*ALL FILM TITLES PAGE BELOW HERE*/
+
+
+.nav
+{
+    position: fixed;
+    z-index: 100;
+}
+
+
+.filmtitlesh
+{
+    padding-top:20px;
+    margin-left: 133px;
+}
+
+
+.filmtitlesheading
+{
+    font-size:32px;
+    line-height:40px;
+    font-weight:400;
+    color:black;
+    
+}
+
+.filmtitlesheadingbold
+{
+    font-size:32px;
+    line-height:40px;
+    font-weight:700;
+     
+}
+
+
+
+.thebrief
+{
+    font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    padding-top: 37px;
+    margin-left: -40px;
+    color:#6300ff;
+}
+
+.thebriefmobile
+{
+    display: none;
+}
+
+.words
+{
+    font-size:16px;
+    line-height:20px;
+    font-weight:400;
+   margin-top: -5px;
+    
+}
+
+.artdirection
+{
+   font-size:16px;
+    line-height:20px;
+    font-weight:400;
+   margin-top: -5px;
+    margin-left: 133px; 
+}
+
+.artdirectionmobile
+{
+    display: none;
+    
+}
+
+.motion
+{
+   font-size:16px;
+    line-height:20px;
+    font-weight:400;
+   margin-top: -5px;
+   
+}
+
+.poster
+{
+    font-size:16px;
+    line-height:20px;
+    font-weight:400;
+   margin-top: -5px;
+    
+
+}
+
+
+.line1
+{
+    background-image:url(../img/homepage/Asset%2015.png);
+    height:6;
+    width:7px;
+    background-repeat: no-repeat;
+    background-position: centre;
+    margin-top: 2px;
+    margin-left: -115px;
+    
+    
+    
+    
+    
+}
+
+.line2
+{
+    background-image:url(../img/homepage/Asset%2015.png);
+    height:7px;
+    width:6px;
+    background-repeat: no-repeat;
+    background-position: centre;
+    margin-top: 2px;
+    margin-left: -155px;
+    
+}
+
+
+.filmtitlesbriefp
+{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-weight: 400;
+    margin-top:-13px;
+    margin-left:-26px;
+}
+
+.filmtitlesbriefpmobile
+{
+    display: none;
+}
+
+.share
+{
+    font-weight: 700;
+    color: #6300ff;
+    font-size: 16px;
+    margin-top: -50px;
+    margin-left: 133px;
+    
+}
+
+.motyftextm
+{
+    display:none;
+}
+.shareicon
+{
+    background-image: url(../img/homepage/Asset%2017.png);
+    height:26px;
+    background-repeat:no-repeat;
+    background-position: centre;
+    margin-top: -50px;
+    margin-left: -50px;
+    
+    
+}
+
+.facebookshare
+{
+    background-image: url(../img/homepage/facebook.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:25px;
+    margin-left: 80px;
+}
+
+.twitter
+{
+    background-image: url(../img/filmtitles/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:25px;
+    margin-left: -70px;
+}
+
+.pinterest
+{
+    background-image: url(../img/filmtitles/pinterest%20logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:25px;
+    margin-left: -70px;
+}
+
+.linkedinshare
+{
+   background-image: url(../img/homepage/linkdin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:25px;
+    margin-left: -70px; 
+    
+}
+
+.visualsparkletitle
+{
+   font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    padding-bottom:5px;
+    padding-top: 10px;
+    margin-left:830px;
+    color:#6300ff;
+}
+
+.visualsparklefilm
+{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-weight: 400; 
+    margin-left: 830px;
+}
+
+
+
+.filmtitlesposter
+{
+    background-image:url(../img/filmtitles/filmtitlesposter.jpg);
+    height: 720px;
+    width: 598px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 65px;
+    
+  
+}
+
+.filmtitlesposterm
+{
+    display: none;
+}
+
+.scrollingphone
+{
+    background-image: url(../Gifs/scrollinginstaphone.gif);
+    height: 690px;
+    width: 568px;
+    background-repeat: no-repeat;
+    background-position: center; 
+   margin-top: 80px;
+    margin-left: -15px;
+}
+
+.scrollingphonem
+{
+    display: none;
+}
+
+.websitescroll
+{
+    margin-left:7px;
+}
+
+.websitescrollm
+{
+    display: none;
+}
+.webcaption
+{
+    font-weight: 300;
+    color:#a3a3a3;
+    font-size:12px;
+    padding-left:20px;
+}
+
+
+.promotionalbooklet
+{
+  font-size:16px;
+    font-weight: 700;
+    color:#6300ff;
+    padding-top:50px;
+    padding-left:20px;
+    padding-bottom:5px;
+    
+}
+
+.typespecimenmtext
+{
+    
+   display: none; 
+}
+
+.promotionalbooklettext
+{
+    font-size:16px;
+    font-weight: 400;
+    line-height: 20px;
+    color:black;
+    padding-left:20px;
+    padding-bottom: 60px;
+}
+
+
+.contents
+{
+    background-image: url(../img/filmtitles/booklet/contents.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center;
+ 
+}
+
+.contentsm
+{
+    display: none;
+}
+.filminfo
+{
+  background-image: url(../img/filmtitles/booklet/filminfo.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center; 
+    margin-left:-15px;
+}
+
+.main
+{
+   background-image: url(../img/filmtitles/booklet/main7.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    width:1180px;
+    background-position: center; 
+    margin-top: 15px;
+    
+}
+
+.mainm
+{
+    display:none;
+}
+
+
+.nicerose
+{
+    background-image: url(../img/filmtitles/booklet/nicerose.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center; 
+    margin-left: 122px;
+    margin-top: 15px;
+}
+
+.nicerosem
+{
+    display: none;
+}
+
+.scaryrose
+{
+  background-image: url(../img/filmtitles/booklet/scaryrose.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center; 
+    margin-left: -12px;
+    margin-top: 15px;
+}
+
+.filmprojecttextmbold
+{
+    display: none;
+}
+
+.filmprojecttextm
+{
+    display: none;
+}
+
+/*TUSLA PAGE BELOW HERE*/
+
+
+.landinggiff
+{
+    background-image: url(../Gifs/tuslalanding.gif);
+    height:620px;
+    width: 606px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 115px;
+    margin-top: 10px;
+    
+}
+
+.homegiff
+{
+    background-image: url(../Gifs/tuslahome.gif);
+    height:620px;
+    width: 606px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 115px;
+}
+
+.abuseandcontactgiff
+{
+   background-image: url(../Gifs/abuseandcontact1.gif);
+    height:620px;
+    width: 606px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 115px; 
+}
+
+
+.tuslacover
+{
+    background-image: url(../img/tuslapage/coverphoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:1180px;
+    height:680px;
+}
+
+.rowyo
+{
+ padding-top: 20px;
+}
+
+.special
+{
+    font-size:16px;
+    line-height:20px;
+    font-weight:400;
+   margin-top: -5px;
+    margin-left: 135px;
+}
+
+.filmtitlesbriefspecial
+{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-weight: 400;
+    margin-top:-13px;
+    margin-left: -20px;
+   
+}
+
+.rowpad{
+    display:none;
+}
+.thebriefspecial
+{
+   font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    padding-top: 37px;
+    margin-left: -40px;
+    color:#6300ff; 
+}
+.line1special
+{
+    background-image:url(../img/homepage/Asset%2015.png);
+    height:6;
+    width:7px;
+    background-repeat: no-repeat;
+    background-position: centre;
+    margin-top: 2px;
+    margin-left: -125px;
+}
+.rowpadding
+{
+    padding-top:60px;
+}
+
+.typespecimenm
+{
+    display: none;
+}
+
+
+
+.landinghomevid
+{
+    padding-top: 20px;
+    margin-left:123px;
+}
+
+.thelandingpagec
+{
+    font-size:12px;
+    font-weight: 400;
+    color: #a3a3a3;
+}
+
+.whowillimeetc
+{
+   font-size:12px;
+    font-weight: 400;
+    color: #a3a3a3;
+    padding-bottom: 15px; 
+    
+    
+}
+
+
+.thehomepagec
+{
+    font-size:12px;
+    font-weight: 400;
+    color: #a3a3a3;
+    padding-bottom: 15px;
+   
+}
+
+
+.thelandingpagetitle
+{
+    font-size: 16px;
+    color:#6300ff;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-left:120px;
+}
+
+
+.thelandingpagetext
+{
+    font-size: 16px;
+    color:black;
+    font-weight: 400;
+    padding-top: 3px;
+    margin-left:120px;
+    line-height: 20px;
+    padding-bottom: 60px;
+}
+
+
+.whowillimeetgiff
+{
+   background-image: url(../Gifs/tuslawho.gif);
+    height:620px;
+    width: 606px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 115px;
+ 
+}
+
+
+
+.whatiscarevid
+{
+    padding-top:10px;
+}
+
+.rowpadding2{
+
+padding-top:30px;
+
+}
+
+.nextproject{
+    
+    font-size: 32px;
+    color:black;
+    font-weight: 700;
+    
+    
+}
+
+.paddingyes
+{
+    padding-bottom: 100px
+}
+
+.tuslatextm
+{
+    display: none;
+}
+.tester
+{
+    background-image: url(../Gifs/previouspro2static.png);
+    height:40px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+    
+}
+
+.tester:hover
+{
+   background-image: url(../Gifs/previouspro2.gif);
+    height:40px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:block;
+    
+}
+
+.nextproject
+{
+    background-image: url(../Gifs/nextprostatic.png);
+    height:40px;
+    width:180px;
+    background-repeat: no-repeat;
+    background-position: center;
+margin-left: 530px;
+    display: block;
+
+}
+
+.nextprojectm
+{
+    display:none;
+}
+
+
+.nextproject:hover
+
+{
+    background-image: url(../Gifs/nextproreal.gif);
+    height:40px;
+    width:230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    
+    
+
+    
+}
+
+.tester1
+{
+    display: none;
+}
+
+.tuslam{
+    
+    display: none;
+}
+
+
+/*ABOUT PAGE BELOW HERE*/
+
+
+.aboutgif
+{
+    background-image: url(../Gifs/aboutpage8.gif);
+    background-repeat: no-repeat;
+    width:1180px;
+    height: 800px;
+    background-position: center;
+    
+}
+
+
+
+.pado
+{
+    padding-top:20px;
+}
+
+.behindthesparkles
+{
+    font-weight: 800;
+    font-size: 60px;
+    color:#6300ff;
+
+    padding-top: 30px;
+}
+
+
+.sparkles
+{
+   font-weight: 700;
+    font-size: 42px;
+    color:#6300ff; 
+}
+
+
+.introtitle
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6300ff;
+    
+    margin-left: -808px;
+    margin-top: 120px;
+}
+
+.intro
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    margin-left:137px;
+}
+
+.sparklerposes
+{background-image: url(../Gifs/megif2.gif);
+    width: 400px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -440px;
+    margin-left: 830px;
+    
+}
+
+.magictext
+{
+    font-size: 16px;
+    line-height: 20px;
+    color:black;
+    margin-left:20px;
+    padding-top: 50px;
+    color: #6300ff;
+    font-weight: 700;
+    
+}
+
+
+/*
+.sparklerposes:hover
+{
+    background-image: url(../Gifs/sparklerposes.gif);
+    width: 500px;
+    height:650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+*/
+}
+
+.magic
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6300ff;
+    margin-top: 50px;
+}
+
+
+
+.education
+{
+   font-weight: 700;
+    font-size: 16px;
+    color: #6300ff; 
+    margin-left: 133px;
+    padding-top: 50px;
+    
+}
+
+.skills
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6300ff; 
+    margin-left: 30px;
+    padding-top: 50px;
+    
+}
+
+.educationtext
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 135px;
+    
+
+    
+}
+
+.skillstext
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left:30px;
+}
+
+.pdf
+{
+   font-weight: 700;
+    font-size: 16px;
+    color: #6300ff; 
+    margin-top: 50px;
+    margin-left: 118px;
+    
+}
+
+.hio
+{
+    padding-bottom: 70px;
+}
+
+.contactlink
+{
+   color:#00ff00;
+    font-weight: 800;
+    
+    
+}
+
+
+
+
+
+/*CONTACT PAGE BELOW HERE*/
+
+
+
+.contacttitle
+
+{
+font-weight: 800;
+    font-size: 60px;
+    color:white;
+padding-top: 70px;}
+
+.phone
+{
+    background-image: url(../img/contact/shittyphone_1.png);
+    height: 90px;
+    width: 92px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:60px;
+    margin-top: -10px;
+}
+
+/*
+.phone:hover
+{
+    background-image: url(../Gifs/phone2.gif);
+    height: 92px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:60px;
+}
+*/
+
+.lol
+{
+    padding-top: 140px;
+}
+
+.callmecontact{
+    font-size: 16px;
+    line-height: 35px;
+    color:white;
+    font-weight: 600;
+    margin-left:-50px;
+    margin-top:5px;
+    
+}
+
+
+.numba
+{
+    font-weight:300;
+}
+
+
+.linky
+{
+   background-image: url(../img/contact/shitlol2.png);
+    height: 73px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:5px;
+    
+}
+
+.linkytext
+{
+  font-size: 16px;
+    line-height: 35px;
+    color:white;
+    font-weight: 600;
+    margin-left:-50px;
+    margin-top:5px;
+                     
+                 
+}
+
+.emailcontact
+{
+   background-image: url(../img/contact/shitty%20email_1.png);
+    height: 77px;
+    width: 59px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px;
+    margin-left: -980px;
+    
+}
+
+
+
+
+
+
+.emailmecontact
+{
+   font-size: 16px;
+    line-height: 35px;
+    color:white;
+    font-weight: 600;
+    margin-left:-50px;
+    margin-top: 150px; 
+}
+
+
+.instatext
+{
+   font-size: 16px;
+    line-height: 35px;
+    color:white;
+    font-weight: 600;
+    margin-left:-50px;
+    margin-top:150px; 
+}
+
+.instacontact
+{
+   background-image: url(../img/contact/insta2.png);
+    height: 60px;
+    width: 59px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:158px; 
+   
+}
+
+
+.purplay
+{
+    background-color: #6300ff;
+    padding-bottom: 150px;
+}
+
+
+
+@media only screen and (max-width:576px){
+    
+    .sidenav {
+    
+    position: relative; 
+        padding-top: 0px;
+        margin-top: -33px;
+   
+}
+    
+/*
+    .plus-minus-toggle {
+        position: relative;
+       
+         
+    }
+    
+    
+.plus-minus-toggle:before
+    {
+        position: relative;
+    }
+.plus-minus-toggle:after {
+  
+  position: relative;
+ 
+    
+}
+*/
+    
+/*
+    body{
+        padding-top: 65px;
+    }
+*/
+    
+    
+    .line
+    {
+        display:none;
+    }
+    
+    .facebook
+    {
+        display: none;
+    }
+    
+    .behance
+    {
+        display: none;
+    }
+    
+    .instagram
+    {
+        display: none;
+    }
+    
+    .linkdin
+    {
+        display:none;
+    }
+    
+    .email
+    {
+        display: none;
+    }
+    .actualemail
+    {
+        display: none;
+    }
+    
+    
+    .filmtitlesh
+    {   padding-top: 30px;
+        margin-left: 0px;
+        padding-left: 30px;
+        font-size: 24px;
+    }
+    
+    
+    .filmtitlesheading
+{
+    font-size:24px;
+    line-height:30px;
+    font-weight:400;
+    color:black;
+    
+}
+
+.filmtitlesheadingbold
+{
+    font-size:24px;
+    line-height:30px;
+    font-weight:700;
+     
+}
+ 
+    .thebrief
+    {
+        display: none;
+    }
+    
+    
+    
+.thebriefmobile
+    {
+       font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    padding-top: 25px;
+    padding-left: 31px ;
+       display: block;
+    color:#6300ff; 
+    }
+    
+    
+   .artdirectionmobile
+    {
+        margin-left: 0px;
+        margin-top: -10px;
+        padding-left: 33px;
+        font-size: 14px;
+        display: block;
+    }
+    
+    .artdirection
+    {
+        display: none;
+    }
+    
+    .motion{
+        display: none;
+    }
+    
+    .poster
+    {
+        display: none;
+ 
+    }
+    
+    
+
+    .line1
+    {
+        display: none;
+    }
+    
+    
+    .line2
+    {
+        display: none;
+    }
+    
+    .share
+    {
+        display: none;
+    }
+    
+    .filmtitlesbriefp
+    {
+        display: none;
+    }
+    
+    .filmtitlesbriefpmobile
+    {
+        font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-weight: 400;
+    margin-top:0px;
+    margin-left:15px;
+        padding-top: 5px;
+        display: block;
+    }
+    
+    
+    
+    .visualsparklefilm
+    {
+      font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-weight: 400; 
+    margin-left: 15px;  
+    }
+    
+    .visualsparkletitle
+    {
+        font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    padding-bottom:5px;
+    padding-top: 25px;
+    margin-left: 15px;
+    color:#6300ff;
+    }
+    
+    .filmtitlesposter
+    {
+        display: none;
+    }
+    
+    .filmtitlesposterm
+    {
+        display: block;
+        background-image: url(../img/mobile/new3.jpg);
+        height: 440px;
+        width:325px;
+        background-position: center;
+        margin-left: 35px;
+        margin-top: 50px;
+        
+    }
+    
+    .scrollingphonem
+    {
+        display: block;
+        background-image: url(../Gifs/mobile/scrollingphone4.gif);
+        height: 520px;
+        width:367px;
+        background-position: center;
+        margin-left: 17px;
+        margin-top: 10px;
+        
+        background-repeat: no-repeat;
+    }
+    
+    .scrollingphone
+    {
+        display: none;
+    }
+    
+    
+    .websitescrollm
+    {
+       display: block;
+        background-image: url(../Gifs/mobile/webscroll3.gif);
+        height: 200px;
+        width:400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 37px;
+        margin-top: 10px;
+        
+    }
+    
+    .webcaption
+    {
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .websitescroll
+    {
+        display: none;
+    }
+    
+    .promotionalbooklet
+    {
+        margin-left: 0px;
+        padding-left: 33px;
+        margin-top:-20px;
+    }
+    
+    
+    .promotionalbooklettext{
+        
+       padding-left: 33px; 
+        
+        
+    }
+    
+    .filminfo
+    {
+        display: none;
+    }
+    
+    .scaryrose
+    {
+        display: none;
+    }
+    
+    .contents
+    {
+        display: none;
+    }
+    
+    
+    .contentsm
+    {
+        display: block;
+        background-image: url(../img/filmtitlesbooklet/contentsm5.jpg);
+        height: 250px;
+        width:365px;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+    }
+    
+    
+    .main
+    {
+        display: none;
+    }
+    
+    
+    
+    .mainm
+    {
+        display: block;
+        background-image: url(../img/filmtitlesbooklet/main.jpg);
+        height: 250px;
+        width:370px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        
+        
+    }
+    
+    .nicerosem
+    {
+        display: block;
+        background-image: url(../img/filmtitlesbooklet/nicerosee.jpg);
+        height: 250px;
+        width:370px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        
+    }
+    
+    .nicerose{
+        display: none;
+    }
+    
+    .tester
+    {
+        display: none;
+    }
+    
+    
+    .nextproject
+    {
+        display:none;
+    }
+    
+    
+    .nextprojectm
+    {
+       display: block;
+        background-image: url(../Gifs/tinynextgifstatic.png); 
+        height: 40px;
+        width: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 260px;
+         margin-top:-48px;
+    }
+    
+    .nextprojectm:hover{
+        
+        display: block;
+        background-image: url(../Gifs/tinynext.gif); 
+        height: 40px;
+        width: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+       
+       
+    }
+    
+    .tester1
+    {
+    
+        display: block;
+        background-image: url(../Gifs/tiny.png); 
+        height: 40px;
+        width: 180px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: -10px;
+        
+    
+    }
+    
+    .tester1:hover
+    {
+        display: block;
+        background-image: url(../Gifs/tinynext1.gif); 
+        height: 40px;
+        width: 180px;
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    
+    
+    
+    .homegif
+    {
+        display:none;
+    }
+    
+    
+    .homegifmobile
+    {
+        display: block;
+        background-image: url(../Gifs/purplemobile3.gif); 
+        height: 600px;
+        width: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top:-105px;
+    
+        
+    }
+    
+    
+    .sparklingtreats
+    {
+        font-size: 20px;
+        color: black;
+        margin-top: -20px;
+    }
+    
+    .purplebold
+    {
+        color:#6300ff;
+        font-size: 20px;
+    }
+    
+    .filmproject:hover
+    {
+        display:none;
+    }
+    
+    .filmproject
+    {
+        display:none;
+   
+        
+    }
+    
+    .filmprojectm
+    {
+       display: block;
+        background-image: url(../img/mobile/new3.jpg);
+        height: 440px;
+        width:325px;
+        background-position: center;
+        margin-left: 20px;
+        margin-top: -20px; 
+    }
+    
+    .testgif
+    {
+        display:none;
+    }
+    
+    .motyfproject
+    {
+        display:none;
+    }
+    
+    .motyfproject:hover
+    {
+        display:none;
+    }
+    
+    .motyfprojectm
+    {
+        display: block;
+        background-image: url(../img/mobile/motyf6.jpg);
+        height: 520px;
+        width:360px;
+        background-position: center;
+        margin-left: 20px;
+        margin-top:30px;
+       
+    }
+    
+    
+    
+    
+    .filmprojecttextm
+    {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left:5px;
+        margin-top: 3px;
+        
+    }
+    
+    
+    
+    .tuslaproject
+    {
+        display:none;
+    }
+    
+    
+    .tuslaproject
+    {
+        display:none;
+    }
+    
+    .motyftextm
+    {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 5px;
+        margin-top: 3px;
+        margin
+    }
+    
+    .tuslam
+    {
+        
+   
+    display: block;
+        background-image: url(../img/mobile/tusla2.jpg);
+        height: 260px;
+        width:370px;
+        background-position: center;
+        margin-left: 0px;
+        background-repeat: no-repeat;
+        margin-top:15px;
+   
+   
+    }
+    
+    .tuslatextm
+    {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left:5px;
+        margin-top: 3px;
+        padding-bottom: 20px;
+    }
+    
+    .typespecimenm
+    {
+       display: block;
+        background-image: url(../img/mobile/typespecimen.jpg);
+        height: 260px;
+        width:370px;
+        background-position: center;
+        margin-left: 0px;
+        background-repeat: no-repeat;
+        margin-top:0px;
+ 
+    }
+    
+    .typespecimenproject
+    {
+        display:none;
+    }
+    
+    .typespecimenmtext
+    {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left:5px;
+        margin-top: 3px;
+        
+    }
+    
+    .emailme
+    {
+        margin-left: 200px;
+        margin-top: -135px;
+    }
+    
+    
+    .numbers2
+    {
+        margin-top: -15px;
+        padding-left: 10px;
+    }
+    
+    .sarahbuggy
+    {
+        padding-left:10px;
+    }
+    
+    
+    .call
+    {
+     padding-left:10px;
+    }
+    
+    .numbers
+    {
+        margin-top:-10px;
+        padding-left: 10px;
+    }
+    
+    
+    .myemail
+    {
+        margin-top: -15px;
+        margin-left: 200px;
+    }
+    
+    .myemail2
+    {
+        margin-top:-10px;
+        margin-left:200px;
+    
+    }
+    
+    
+    .followmee
+    {
+        display:none;
+    }
+    
+    .followmee2
+    {
+        display:none;
+    }
+    
+    .follow
+    {
+        display:none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+/*
+@media(max-width:576px){
+  h2{
+    font-size: 1rem
+*/
+/*
+  }
+  #img-foo{
+    display: none;
+*/
+/*
+  }
+  .all-cols{
+    border-color:black;
+  }
+*/
+    
+/*
+  .test
+    {
+        font-size: 50px;
+    }
+    
+*/
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+
+/*
+@media (min-width: 576px) {
+  .all-cols{
+    border-color:white;
+*/
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+/*
+@media (min-width: 768px) {
+  .all-cols{
+    border-color:blue;
+*/
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+/*
+@media (min-width: 992px) {
+  .all-cols{
+    border-color:yellow;
+  }
+*/
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+/*
+
+@media (min-width: 1200px) {
+  .all-cols{
+    border-color:red;
+  }
+}*/
