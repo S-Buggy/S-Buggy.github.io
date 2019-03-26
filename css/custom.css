@@ -369,11 +369,12 @@ body{
 
 .motyfproject
 {
-   background-image: url(../img/homepage/projectphotos/motyf1.jpg);
+   background-image: url(../img/homepage/newfilmtitles/nohover4.jpg);
     height: 690px;
     width: 568px;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    display:block;
    
     
 }
@@ -385,11 +386,12 @@ body{
 
 .motyfproject:hover
 {
-    background-image: url(../img/homepage/projectphotos/motyf2.jpg);
+    background-image: url(../img/homepage/newfilmtitles/usethis.jpg);
     height: 690px;
     width: 568px;
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
+    display:block;
   
 }
 
@@ -1153,14 +1155,16 @@ padding-top:30px;
 
 }
 
+/*
 .nextproject{
     
     font-size: 32px;
     color:black;
     font-weight: 700;
-    
+    display: block;
     
 }
+*/
 
 .paddingyes
 {
@@ -1545,6 +1549,108 @@ padding-top: 70px;}
 {
     background-color: #6300ff;
     padding-bottom: 150px;
+}
+
+
+.operalong
+{
+    background-image: url(../img/opera/lesslong.jpg);
+    width: 1180px;
+    height: 1700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -100px;
+}
+
+
+.operashare
+{
+    font-weight: 700;
+    color: #6300ff;
+    font-size: 16px;
+    margin-top:-130px;
+    margin-left: 133px;
+    
+}
+
+
+.operashareicon
+{
+   background-image: url(../img/homepage/Asset%2017.png);
+    height:26px;
+    background-repeat:no-repeat;
+    background-position: centre;
+    margin-top: -130px;
+    margin-left: -50px; 
+}
+
+.operawebcaption
+
+{
+    margin-top: -160px;
+        font-weight: 300;
+    color:#a3a3a3;
+    font-size:12px;
+    margin-left: 130px;
+    
+}
+
+.promotionaloperabooklet
+{
+   margin-left: 110px;
+        padding-left: 33px;
+        margin-top:-100px;
+        font-weight: 700;
+        color:#6300ff;
+}
+
+
+.promotionaloperabooklettext
+{
+    margin-top: -60px;
+    margin-left: 128px;
+    padding-bottom: 60px;
+}
+
+
+.operacontents
+{
+    background-image: url(../img/opera/conents.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center;
+}
+
+.history
+{
+    background-image: url(../img/opera/history.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center; 
+    margin-left:-15px;
+}
+
+.tear
+{
+  background-image: url(../img/opera/tear2.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center;  
+    margin-top:17px;
+}
+
+.nicepage
+{
+    background-image: url(../img/opera/nicepage.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width:598px;
+    background-position: center; 
+    margin-left:-15px;
+    margin-top:17px;
 }
 
 
