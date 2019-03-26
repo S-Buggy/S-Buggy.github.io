@@ -156,8 +156,7 @@ body{
     z-index: 100;
 }
 
-/*
-.homegif2
+.homegif
 {
     
     background-image: url(../Gifs/purplehome7.gif);
@@ -168,7 +167,6 @@ body{
     z-index: 0;
      
 }
-*/
 
 
 .testgif
@@ -1949,7 +1947,7 @@ padding-top: 70px;}
     
     
     
-    .homegif2
+    .homegif
     {
         display:none;
     }
