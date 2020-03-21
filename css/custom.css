@@ -143,6 +143,9 @@ body{
 
 
 
+
+
+
 /*HOME PAGE BELOW HERE*/
 
 .purps
@@ -323,10 +326,6 @@ body{
    
 }
 
-.rowp
-{
-    padding-top: 30px;
-}
 
 
 
@@ -335,12 +334,10 @@ body{
    
    background-image:url(../img/homepage/newfilmtitles/nohover.jpg);
     background-repeat: no-repeat;
-    width: 568px;
+    width: 100%;
     height:690px;
     background-position: center;
     display:block;
-
-    
 }
 
 
@@ -356,15 +353,7 @@ body{
 
 .filmproject:hover
 {
-   background-image:url(../img/homepage/newfilmtitles/hover.jpg);
-    background-repeat: no-repeat;
-    width: 568px;
-    height:690px;
-    background-position: center;
-    display: block;
-    
-   
-    
+   background-image:url(../img/homepage/newfilmtitles/hover.jpg);    
 }
 
 .motyfproject
@@ -378,6 +367,319 @@ body{
    
     
 }
+
+.project-link-item:hover {
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.project-title {
+    position: absolute;
+  z-index: 1;
+    margin-top: -310px;
+    margin-left: 520px;
+    display: block;
+    font-size:20px;
+    line-height:24px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+    display: none;
+}
+
+.boldy
+{
+    font-size:20px;
+    line-height:20px;
+    font-weight:600; 
+}
+/*
+.project-link-item:hover .project-image {
+     -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+}
+*/
+
+.project-overlay {
+        background-color: black;
+    position: absolute;
+    top:0;
+    bottom:0px;
+    right: 14px;
+    left: 15px;
+    opacity: 0.0;
+}
+.project-link-item:hover .project-overlay {
+    opacity: 0.14;
+}
+
+.project-link-item:hover .project-title
+{
+    display:block;
+}
+
+
+.rowp
+{
+    padding-bottom: 3px;
+}
+
+
+
+.project-overlay-2 {
+        background-color: black;
+    position: absolute;
+    top:0;
+    bottom:0px;
+    right: 30px;
+    left: 15px;
+    opacity: 0.0;
+}
+
+
+
+.project-link-item-2:hover .project-overlay-2
+{
+    opacity: 0.14;
+}
+
+
+
+.project-link-item-2:hover .project-title-2
+{
+    display:block;
+    
+}
+
+
+.boldy-2
+{
+    font-size:20px;
+    line-height:20px;
+    font-weight:600; 
+}
+
+
+.project-title-2 {
+    position: absolute;
+  z-index: 1;
+    margin-top: -350px;
+    margin-left: 543px;
+    display: block;
+    font-size:20px;
+    line-height:24px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+    display: none;
+}
+
+
+
+.rowhowyih
+{
+    padding-bottom: 3px;
+}
+
+
+
+
+
+.project-overlay-3 {
+        background-color: black;
+    position: absolute;
+    top:0;
+    bottom:0px;
+    right: 15px;
+    left: 15px;
+    opacity: 0.0;
+}
+
+
+
+.project-link-item-3:hover .project-overlay-3
+{
+    opacity: 0.14;
+}
+
+
+
+.project-link-item-3:hover .project-title-3
+{
+    display:block;
+    
+}
+
+
+.boldy-3
+{
+    font-size:20px;
+    line-height:20px;
+    font-weight:600; 
+}
+
+
+.project-title-3 {
+    position: absolute;
+  z-index: 1;
+    margin-top: -350px;
+    margin-left: 250px;
+    display: block;
+    font-size:20px;
+    line-height:24px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+    display: none;
+}
+
+
+
+.project-image-4
+{
+    margin-left:-10px;
+    width: 593px;
+}
+
+
+
+.project-overlay-4 {
+        background-color: black;
+    position: absolute;
+    top:0;
+    bottom:393px;
+    right: 137px;
+    left: 5px;
+    opacity: 0.0;
+}
+
+
+
+.project-link-item-4:hover .project-overlay-4
+{
+    opacity: 0.14;
+    
+}
+
+
+
+.project-link-item-4:hover .project-title-4
+{
+    display:block;
+    
+}
+
+
+.boldy-4
+{
+    font-size:20px;
+    line-height:20px;
+    font-weight:600; 
+}
+
+
+.project-title-4 {
+    position: absolute;
+  z-index: 1;
+    margin-top: -220px;
+    margin-left: 227px;
+    display: block;
+    font-size:20px;
+    line-height:24px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+    display: none;
+}
+
+
+
+.poo
+{
+    margin-top:-400px;
+    margin-left: 725px;
+   
+  
+}
+
+
+.project-image-5
+{
+    width: 593px;
+    margin-top: 26px;
+   
+}
+
+
+
+.project-overlay-5 {
+        background-color: black;
+    position: absolute;
+    top:26px;
+    bottom:0px;
+    right: 127px;
+    left: 15px;
+    opacity: 0.0;
+    z-index: 1;
+    
+}
+
+
+
+.project-link-item-5:hover .project-overlay-5
+{
+    opacity: 0.14;
+}
+
+
+
+.project-link-item-5:hover .project-title-5
+{
+    display:block;
+    
+}
+
+
+.boldy-5
+{
+    font-size:20px;
+    line-height:20px;
+    font-weight:600; 
+}
+
+
+.project-title-5 {
+    position: absolute;
+  z-index: 1;
+    margin-top: -220px;
+    margin-left: 243px;
+    display: block;
+    font-size:20px;
+    line-height:24px;
+    font-weight:400;
+    text-align: center;
+    color:white;
+    display: none;
+}
+
+
+
+.hellorow
+{
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .motyfprojectm
 {
@@ -440,7 +742,7 @@ body{
 
 .row3
 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .gif
@@ -485,7 +787,7 @@ body{
 {
     color:white;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 30px;
 }
 
@@ -494,7 +796,7 @@ body{
     
     color:white;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     padding-top: 30px;
     
 }
@@ -508,7 +810,7 @@ body{
 {
    color:white;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 30px; 
 }
 
@@ -516,7 +818,7 @@ body{
 {
     color:white;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     padding-top: 30px;
     
 }
@@ -525,7 +827,7 @@ body{
 {
    color:white;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 0px; 
 }
 
@@ -533,7 +835,7 @@ body{
 {
    color:white;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 20px; 
 }
 
@@ -541,7 +843,7 @@ body{
 {
    color:white;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 20px;  
 }
 
@@ -549,7 +851,7 @@ body{
 {
    color:white;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 0px;  
 }
 
@@ -559,7 +861,7 @@ body{
 {
     color:white;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 20px;
 }
 
@@ -567,7 +869,7 @@ body{
 {
     color:white;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 400;
     padding-top: 0px;
 }
 
@@ -858,10 +1160,11 @@ body{
 }
 .webcaption
 {
-    font-weight: 300;
+    font-weight: 400;
     color:#a3a3a3;
     font-size:12px;
     padding-left:20px;
+    padding-top: 10px;
 }
 
 
@@ -973,6 +1276,24 @@ body{
 
 /*TUSLA PAGE BELOW HERE*/
 
+.tuslaheading
+{
+        font-size:32px;
+    line-height:40px;
+    font-weight:400;
+    color:black;
+    
+}
+
+.tuslaheadingbold
+{
+    font-size:32px;
+    line-height:40px;
+    font-weight:700;
+     
+}
+
+
 
 .landinggiff
 {
@@ -1013,7 +1334,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     width:1180px;
-    height:680px;
+    height:750px;
 }
 
 .rowyo
@@ -1425,7 +1746,7 @@ margin-left: 530px;
 font-weight: 800;
     font-size: 60px;
     color:white;
-padding-top: 70px;}
+margin-top: 100px;}
 
 .phone
 {
@@ -1468,7 +1789,7 @@ padding-top: 70px;}
 
 .numba
 {
-    font-weight:300;
+    font-weight:400;
 }
 
 
@@ -1552,6 +1873,40 @@ padding-top: 70px;}
 }
 
 
+
+.operaheading
+{
+    font-size:32px;
+    line-height:40px;
+    font-weight:400;
+    color:black;
+    
+}
+
+.operaheadingbold
+{
+    font-size:32px;
+    line-height:40px;
+    font-family: work-sans, sans-serif;
+     font-weight: 600;
+    font-style: normal;
+     
+}
+
+.operaheadingall
+{
+    padding-left: 23px;
+}
+
+.thebriefopera
+{
+    font-size:16px;
+    line-height:20px;
+    font-weight:700;
+    padding-top: 37px;
+    margin-left: -29px;
+    color:#6300ff;
+}
 .operalong
 {
     background-image: url(../img/opera/lesslong.jpg);
